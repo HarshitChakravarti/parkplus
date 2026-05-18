@@ -6,7 +6,7 @@ BASE_URL = "http://localhost:8000"
 SEED_VEHICLES = [
     {
         "plate_number": "MH12AB9999",
-        "owner_phone": "+911234567890",
+        "owner_phone": "+917042332006",
         "vehicle_type": "Sedan",
     },
     {
