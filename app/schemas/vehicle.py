@@ -1,5 +1,30 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, field_validator
 from datetime import datetime
+import re
+
+class VehicleRegisterRequest(BaseModel):
+    plate_number: str
+    owner_phone: str
+    vehicle_type: str | None = None
+
+    @field_validator("plate_number")
+    @classmethod
+    def normalize_plate(cls, v: str) -> str:
+        return v.strip().upper()
+
+    @field_validator("owner_phone")
+    @classmethod
+    def validate_phone(cls, v: str) -> str:
+        v = v.strip()
+        if not re.match(r"^\+?[1-9]\d{7,14}$", v):
+            raise ValueError("Invalid phone number format")
+        return v
+
+
+class VehicleRegisterResponse(BaseModel):
+    message: str
+    plate_number: str
+    is_registered: bool
 
 
 class VehicleStateResponse(BaseModel):

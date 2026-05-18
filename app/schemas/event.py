@@ -30,3 +30,6 @@ class ANPREventResponse(BaseModel):
     message: str
     plate: str
     checkpoint: str
+    checkpoint_type: str | None = None
+    status: str | None = None
+    floor: int | None = None

@@ -1,0 +1,1331 @@
+api-1  | INFO:     Will watch for changes in these directories: ['/app']
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     Started reloader process [1] using WatchFiles
+api-1  | INFO:     Started server process [8]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:62146 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:61537 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:62146 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:22082 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:22082 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:22082 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:22082 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:22082 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:22082 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:22956 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:22956 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:22956 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:22956 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:21450 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:21450 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21450 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:21450 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21450 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:21450 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21450 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:21450 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:21450 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:21450 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:20141 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:20141 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:18380 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:18380 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:44457 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:44457 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:44457 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:44457 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:44457 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:44457 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:33145 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:33145 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:33145 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:33145 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | WARNING:  WatchFiles detected changes in 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [8]
+api-1  | INFO:     Started server process [11]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:64245 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:26304 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:54682 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:62285 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:56368 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:20201 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:59704 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:60343 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:37366 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:35622 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:64779 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:54319 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:47700 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:60666 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:27176 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:62392 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:28878 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:18095 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:32859 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:18257 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:25028 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:58597 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21559 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:30659 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:52229 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:28505 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:18344 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:22252 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:37403 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:44398 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:58714 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:27700 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:54187 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | WARNING:  WatchFiles detected changes in 'app/routers/vehicles.py', 'app/main.py', 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [11]
+api-1  | INFO:     Started server process [13]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:53495 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:50151 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39411 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:37910 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:52716 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:27996 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:51756 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:29981 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:26028 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45420 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:44155 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:37089 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:44642 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:22682 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:22359 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:36861 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:48216 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:64796 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:23678 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:47550 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:56101 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39327 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:56982 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:52473 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:61452 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:38536 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | WARNING:  WatchFiles detected changes in 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [13]
+api-1  | INFO:     Started server process [15]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:45692 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | WARNING:  WatchFiles detected changes in 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [15]
+api-1  | INFO:     Started server process [16]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:28064 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | WARNING:  WatchFiles detected changes in 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [16]
+api-1  | INFO:     Started server process [17]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:17234 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | WARNING:  WatchFiles detected changes in 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [17]
+api-1  | INFO:     Started server process [18]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:16011 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | WARNING:  WatchFiles detected changes in 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [18]
+api-1  | INFO:     Started server process [19]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:45801 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:58832 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:33501 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:58832 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:19110 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:24505 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:47753 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:22644 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39429 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:34904 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21432 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21350 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39589 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:22785 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:30601 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:30074 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:31745 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:29583 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39868 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21812 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:40353 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:28980 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:28965 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:31502 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39616 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:46301 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:58221 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:43047 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:52117 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:32682 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:44916 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:18785 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:57470 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:30311 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:24810 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39263 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:19922 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:27916 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:42914 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:50914 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39423 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:42842 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:19477 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:38781 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:27383 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:53548 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:37868 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:16138 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:26616 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:28886 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:24435 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:54597 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:37644 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:27735 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:42041 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:26021 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:52179 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:50078 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:18796 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:36874 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:42668 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:37168 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:42255 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39594 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:18534 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:58832 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:63920 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:22772 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:52476 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:62488 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:21449 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:43252 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:63729 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:64754 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:32264 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:59073 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45557 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:24015 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:45557 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [19]
+api-1  | INFO:     Stopping reloader process [1]
+api-1  | INFO:     Will watch for changes in these directories: ['/app']
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     Started reloader process [1] using WatchFiles
+api-1  | INFO:     Started server process [7]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:20489 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:17662 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:20489 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:20489 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:20489 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:36742 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:60233 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:33977 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for connections to close. (CTRL+C to force quit)
+api-1  | INFO:     Will watch for changes in these directories: ['/app']
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     Started reloader process [1] using WatchFiles
+api-1  | INFO:     Started server process [8]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     192.168.65.1:30163 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:30315 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:30163 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:30163 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     192.168.65.1:30163 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:20452 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     192.168.65.1:44159 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:40532 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:33209 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:34781 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45796 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:31857 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45591 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:36627 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:17307 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:51091 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:35032 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:30398 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:59362 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:42856 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:37770 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:32159 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:53237 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:38186 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:33340 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:57894 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:27806 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:65511 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:16232 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39700 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:29128 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:65093 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:52371 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:26697 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:19350 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     192.168.65.1:19932 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:28639 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:18496 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:42404 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:36396 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:35130 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:31784 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:21592 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:43585 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:45188 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:16389 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:38625 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:47585 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:40014 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:39406 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:54033 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:36441 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:34126 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:36287 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:54061 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:47214 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:64359 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:19734 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:53072 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:57945 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:41140 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     192.168.65.1:54546 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     192.168.65.1:50494 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [8]
+api-1  | INFO:     Stopping reloader process [1]
+api-1  | INFO:     Will watch for changes in these directories: ['/app']
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     Started reloader process [1] using WatchFiles
+api-1  | INFO:     Started server process [7]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     172.18.0.1:64796 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64796 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64796 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64796 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64796 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64796 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64822 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [7]
+api-1  | INFO:     Stopping reloader process [1]
+api-1  | INFO:     Will watch for changes in these directories: ['/app']
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     Started reloader process [1] using WatchFiles
+api-1  | INFO:     Started server process [8]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     172.18.0.1:55034 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:55038 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     172.18.0.1:55038 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55060 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:64624 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64626 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64628 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64636 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64646 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64650 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64658 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64664 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64678 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64692 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64704 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64706 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64714 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64730 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64740 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58118 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58128 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58134 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58140 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58146 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58150 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58162 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58164 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58172 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58182 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58192 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58198 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58204 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58218 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58666 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58668 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:58678 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58682 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58696 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58706 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58720 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58736 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58750 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58752 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58762 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58778 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58780 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58792 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58802 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64794 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64808 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64818 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64828 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64842 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64854 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64862 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:64864 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64880 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55044 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64098 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64118 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64128 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64142 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55582 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:55598 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55606 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55612 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55622 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55626 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55628 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55630 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55634 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55642 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55650 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55660 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:55664 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:64812 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64814 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64816 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64820 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64834 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64838 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64840 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64848 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:64860 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64874 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64876 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64882 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:64892 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64908 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63542 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63546 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63556 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63558 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63572 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63578 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63594 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63610 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63622 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:63638 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:63646 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:60060 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:60070 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:60072 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:60074 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64104 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [8]
+api-1  | INFO:     Stopping reloader process [1]
+api-1  | INFO:     Will watch for changes in these directories: ['/app']
+api-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+api-1  | INFO:     Started reloader process [1] using WatchFiles
+api-1  | INFO:     Started server process [8]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | WARNING:  WatchFiles detected changes in 'app/services/checkpoint_service.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [8]
+api-1  | INFO:     Started server process [10]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | WARNING:  WatchFiles detected changes in 'app/services/event_service.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [10]
+api-1  | INFO:     Started server process [11]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | WARNING:  WatchFiles detected changes in 'app/services/notification_service.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [11]
+api-1  | INFO:     Started server process [12]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     172.18.0.1:55424 - "POST /vehicles/register HTTP/1.1" 500 Internal Server Error
+api-1  | ERROR:    Exception in ASGI application
+api-1  | Traceback (most recent call last):
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+api-1  |     self.dialect.do_execute(
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+api-1  |     cursor.execute(statement, parameters)
+api-1  | psycopg2.errors.UndefinedColumn: column vehicles.is_registered does not exist
+api-1  | LINE 1: ..., vehicles.vehicle_type AS vehicles_vehicle_type, vehicles.i...
+api-1  |                                                              ^
+api-1  | 
+api-1  | 
+api-1  | The above exception was the direct cause of the following exception:
+api-1  | 
+api-1  | Traceback (most recent call last):
+api-1  |   File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 421, in run_asgi
+api-1  |     result = await app(  # type: ignore[func-returns-value]
+api-1  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+api-1  |     return await self.app(scope, receive, send)
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/applications.py", line 1159, in __call__
+api-1  |     await super().__call__(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/applications.py", line 90, in __call__
+api-1  |     await self.middleware_stack(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+api-1  |     raise exc
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+api-1  |     await self.app(scope, receive, _send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+api-1  |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+api-1  |     raise exc
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+api-1  |     await app(scope, receive, sender)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+api-1  |     await self.app(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+api-1  |     await self.middleware_stack(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+api-1  |     await route.handle(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+api-1  |     await self.app(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+api-1  |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+api-1  |     raise exc
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+api-1  |     await app(scope, receive, sender)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+api-1  |     response = await f(request)
+api-1  |                ^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+api-1  |     raw_response = await run_endpoint_function(
+api-1  |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+api-1  |     return await run_in_threadpool(dependant.call, **values)
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+api-1  |     return await anyio.to_thread.run_sync(func)
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/anyio/to_thread.py", line 63, in run_sync
+api-1  |     return await get_async_backend().run_sync_in_worker_thread(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+api-1  |     return await future
+api-1  |            ^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+api-1  |     result = context.run(func, *args)
+api-1  |              ^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/app/app/routers/vehicles.py", line 13, in register
+api-1  |     vehicle = register_vehicle(
+api-1  |               ^^^^^^^^^^^^^^^^^
+api-1  |   File "/app/app/services/vehicle_service.py", line 10, in register_vehicle
+api-1  |     vehicle = db.query(Vehicle).filter(Vehicle.plate_number == plate).first()
+api-1  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2766, in first
+api-1  |     return self.limit(1)._iter().first()  # type: ignore
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2864, in _iter
+api-1  |     result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+api-1  |                                                   ^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+api-1  |     return self._execute_internal(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+api-1  |     result: Result[Any] = compile_state_cls.orm_execute_statement(
+api-1  |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+api-1  |     result = conn.execute(
+api-1  |              ^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+api-1  |     return meth(
+api-1  |            ^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+api-1  |     return connection._execute_clauseelement(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+api-1  |     ret = self._execute_context(
+api-1  |           ^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+api-1  |     return self._exec_single_context(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+api-1  |     self._handle_dbapi_exception(
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+api-1  |     raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+api-1  |     self.dialect.do_execute(
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+api-1  |     cursor.execute(statement, parameters)
+api-1  | sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column vehicles.is_registered does not exist
+api-1  | LINE 1: ..., vehicles.vehicle_type AS vehicles_vehicle_type, vehicles.i...
+api-1  |                                                              ^
+api-1  | 
+api-1  | [SQL: SELECT vehicles.id AS vehicles_id, vehicles.plate_number AS vehicles_plate_number, vehicles.owner_phone AS vehicles_owner_phone, vehicles.vehicle_type AS vehicles_vehicle_type, vehicles.is_registered AS vehicles_is_registered, vehicles.created_at AS vehicles_created_at 
+api-1  | FROM vehicles 
+api-1  | WHERE vehicles.plate_number = %(plate_number_1)s 
+api-1  |  LIMIT %(param_1)s]
+api-1  | [parameters: {'plate_number_1': 'MH12AB9999', 'param_1': 1}]
+api-1  | (Background on this error at: https://sqlalche.me/e/20/f405)
+api-1  | INFO:     172.18.0.1:55430 - "POST /vehicles/register HTTP/1.1" 500 Internal Server Error
+api-1  | ERROR:    Exception in ASGI application
+api-1  | Traceback (most recent call last):
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+api-1  |     self.dialect.do_execute(
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+api-1  |     cursor.execute(statement, parameters)
+api-1  | psycopg2.errors.UndefinedColumn: column vehicles.is_registered does not exist
+api-1  | LINE 1: ..., vehicles.vehicle_type AS vehicles_vehicle_type, vehicles.i...
+api-1  |                                                              ^
+api-1  | 
+api-1  | 
+api-1  | The above exception was the direct cause of the following exception:
+api-1  | 
+api-1  | Traceback (most recent call last):
+api-1  |   File "/usr/local/lib/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 421, in run_asgi
+api-1  |     result = await app(  # type: ignore[func-returns-value]
+api-1  |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 56, in __call__
+api-1  |     return await self.app(scope, receive, send)
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/applications.py", line 1159, in __call__
+api-1  |     await super().__call__(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/applications.py", line 90, in __call__
+api-1  |     await self.middleware_stack(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
+api-1  |     raise exc
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+api-1  |     await self.app(scope, receive, _send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+api-1  |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+api-1  |     raise exc
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+api-1  |     await app(scope, receive, sender)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+api-1  |     await self.app(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 660, in __call__
+api-1  |     await self.middleware_stack(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 680, in app
+api-1  |     await route.handle(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/routing.py", line 276, in handle
+api-1  |     await self.app(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 134, in app
+api-1  |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+api-1  |     raise exc
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+api-1  |     await app(scope, receive, sender)
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 120, in app
+api-1  |     response = await f(request)
+api-1  |                ^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 674, in app
+api-1  |     raw_response = await run_endpoint_function(
+api-1  |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/fastapi/routing.py", line 330, in run_endpoint_function
+api-1  |     return await run_in_threadpool(dependant.call, **values)
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/starlette/concurrency.py", line 32, in run_in_threadpool
+api-1  |     return await anyio.to_thread.run_sync(func)
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/anyio/to_thread.py", line 63, in run_sync
+api-1  |     return await get_async_backend().run_sync_in_worker_thread(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 2518, in run_sync_in_worker_thread
+api-1  |     return await future
+api-1  |            ^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/anyio/_backends/_asyncio.py", line 1002, in run
+api-1  |     result = context.run(func, *args)
+api-1  |              ^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/app/app/routers/vehicles.py", line 13, in register
+api-1  |     vehicle = register_vehicle(
+api-1  |               ^^^^^^^^^^^^^^^^^
+api-1  |   File "/app/app/services/vehicle_service.py", line 10, in register_vehicle
+api-1  |     vehicle = db.query(Vehicle).filter(Vehicle.plate_number == plate).first()
+api-1  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2766, in first
+api-1  |     return self.limit(1)._iter().first()  # type: ignore
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2864, in _iter
+api-1  |     result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+api-1  |                                                   ^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2351, in execute
+api-1  |     return self._execute_internal(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2249, in _execute_internal
+api-1  |     result: Result[Any] = compile_state_cls.orm_execute_statement(
+api-1  |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+api-1  |     result = conn.execute(
+api-1  |              ^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+api-1  |     return meth(
+api-1  |            ^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+api-1  |     return connection._execute_clauseelement(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+api-1  |     ret = self._execute_context(
+api-1  |           ^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+api-1  |     return self._exec_single_context(
+api-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+api-1  |     self._handle_dbapi_exception(
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+api-1  |     raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+api-1  |     self.dialect.do_execute(
+api-1  |   File "/usr/local/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+api-1  |     cursor.execute(statement, parameters)
+api-1  | sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column vehicles.is_registered does not exist
+api-1  | LINE 1: ..., vehicles.vehicle_type AS vehicles_vehicle_type, vehicles.i...
+api-1  |                                                              ^
+api-1  | 
+api-1  | [SQL: SELECT vehicles.id AS vehicles_id, vehicles.plate_number AS vehicles_plate_number, vehicles.owner_phone AS vehicles_owner_phone, vehicles.vehicle_type AS vehicles_vehicle_type, vehicles.is_registered AS vehicles_is_registered, vehicles.created_at AS vehicles_created_at 
+api-1  | FROM vehicles 
+api-1  | WHERE vehicles.plate_number = %(plate_number_1)s 
+api-1  |  LIMIT %(param_1)s]
+api-1  | [parameters: {'plate_number_1': 'DL8CAF5032', 'param_1': 1}]
+api-1  | (Background on this error at: https://sqlalche.me/e/20/f405)
+api-1  | INFO:     172.18.0.1:62116 - "POST /vehicles/register HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:62124 - "POST /vehicles/register HTTP/1.1" 201 Created
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58500 - "POST /events HTTP/1.1" 201 Created
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58508 - "POST /events HTTP/1.1" 201 Created
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58518 - "POST /events HTTP/1.1" 201 Created
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:58524 - "POST /events HTTP/1.1" 201 Created
+api-1  | WARNING:  WatchFiles detected changes in 'app/schemas/event.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [12]
+api-1  | INFO:     Started server process [20]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | WARNING:  WatchFiles detected changes in 'app/routers/events.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [20]
+api-1  | INFO:     Started server process [21]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:59236 - "POST /events HTTP/1.1" 201 Created
+api-1  | WARNING:  WatchFiles detected changes in 'app/services/checkpoint_service.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [21]
+api-1  | INFO:     Started server process [23]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | WARNING:  WatchFiles detected changes in 'app/services/event_service.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [23]
+api-1  | INFO:     Started server process [24]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:62554 - "POST /events HTTP/1.1" 201 Created
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:62556 - "POST /events HTTP/1.1" 201 Created
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:62560 - "POST /events HTTP/1.1" 201 Created
+api-1  | Twilio credentials not configured — skipping SMS
+api-1  | INFO:     172.18.0.1:62568 - "POST /events HTTP/1.1" 201 Created
+api-1  | WARNING:  WatchFiles detected changes in 'app/services/sms_service.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [24]
+api-1  | INFO:     Started server process [26]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | WARNING:  WatchFiles detected changes in 'app/services/notification_service.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [26]
+api-1  | INFO:     Started server process [27]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     172.18.0.1:60486 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:60502 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:60506 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:61236 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:61262 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:61236 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:61236 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     172.18.0.1:61236 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64694 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:61236 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     172.18.0.1:61236 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64708 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:61236 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     172.18.0.1:61236 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64718 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:61236 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     172.18.0.1:61236 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64734 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:61236 - "GET /demo HTTP/1.1" 200 OK
+api-1  | INFO:     connection closed
+api-1  | INFO:     172.18.0.1:61236 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:64744 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | WARNING:  WatchFiles detected changes in 'simulator.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [27]
+api-1  | INFO:     Started server process [29]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     172.18.0.1:64756 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | WARNING:  WatchFiles detected changes in 'seed.py'. Reloading...
+api-1  | INFO:     Shutting down
+api-1  | INFO:     connection closed
+api-1  | INFO:     Waiting for application shutdown.
+api-1  | INFO:     Application shutdown complete.
+api-1  | INFO:     Finished server process [29]
+api-1  | INFO:     Started server process [30]
+api-1  | INFO:     Waiting for application startup.
+api-1  | INFO:     Application startup complete.
+api-1  | INFO:     172.18.0.1:59184 - "WebSocket /dashboard/ws" [accepted]
+api-1  | INFO:     connection open
+api-1  | INFO:     172.18.0.1:59208 - "POST /vehicles/register HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:59214 - "POST /vehicles/register HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:59220 - "POST /vehicles/register HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:59230 - "POST /vehicles/register HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:59234 - "POST /vehicles/register HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:59248 - "GET /vehicles/MH12AB9999 HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for GJ05CD7890 [gate_entry]
+api-1  | INFO:     172.18.0.1:64150 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for GJ05CD7890 [floor_entry]
+api-1  | INFO:     172.18.0.1:58408 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for GJ05CD7890 [floor_exit]
+api-1  | INFO:     172.18.0.1:58420 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for GJ05CD7890 [gate_exit]
+api-1  | INFO:     172.18.0.1:58428 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58432 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58444 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58448 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58464 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for TN09GH8876 [gate_entry]
+api-1  | INFO:     172.18.0.1:58480 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for TN09GH8876 [floor_entry]
+api-1  | INFO:     172.18.0.1:58496 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for TN09GH8876 [floor_exit]
+api-1  | INFO:     172.18.0.1:65304 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for TN09GH8876 [floor_entry]
+api-1  | INFO:     172.18.0.1:65306 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for TN09GH8876 [floor_exit]
+api-1  | INFO:     172.18.0.1:65308 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for TN09GH8876 [gate_exit]
+api-1  | INFO:     172.18.0.1:65320 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:65334 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:65338 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:65344 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:65356 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:65364 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58840 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58856 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58864 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58872 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58876 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for KA03EF4521 [gate_entry]
+api-1  | INFO:     172.18.0.1:58878 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for KA03EF4521 [floor_entry]
+api-1  | INFO:     172.18.0.1:58882 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for KA03EF4521 [floor_exit]
+api-1  | INFO:     172.18.0.1:58894 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for KA03EF4521 [gate_exit]
+api-1  | INFO:     172.18.0.1:58910 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58916 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:58922 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:61060 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:61064 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:61074 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | INFO:     172.18.0.1:61090 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for DL8CAF5032 [gate_entry]
+api-1  | INFO:     172.18.0.1:61106 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for DL8CAF5032 [floor_entry]
+api-1  | INFO:     172.18.0.1:61112 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for DL8CAF5032 [floor_exit]
+api-1  | INFO:     172.18.0.1:61118 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK
+api-1  | Twilio credentials not configured — skipping SMS for DL8CAF5032 [gate_exit]
+api-1  | INFO:     172.18.0.1:61122 - "POST /events HTTP/1.1" 201 Created
+api-1  | INFO:     172.18.0.1:64164 - "GET /dashboard/occupancy HTTP/1.1" 200 OK

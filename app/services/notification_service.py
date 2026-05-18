@@ -1,39 +1,44 @@
 from sqlalchemy.orm import Session
 from app.models.vehicle import Vehicle
-from app.models.vehicle_state import CurrentVehicleState
 from app.services.sms_service import send_sms
+from app.services.checkpoint_service import GATE_ENTRY, FLOOR_ENTRY, FLOOR_EXIT, GATE_EXIT, UNKNOWN
 import logging
 
 logger = logging.getLogger(__name__)
 
-
-def should_notify(previous_state: CurrentVehicleState | None, new_floor: int | None, new_status: str) -> bool:
-    """Decide whether this state change warrants an SMS."""
-    if previous_state is None:
-        return True  # First time we've seen this vehicle
-
-    if new_status == "exited" and previous_state.status != "exited":
-        return True  # Vehicle just left
-
-    if previous_state.current_floor != new_floor and new_status == "inside":
-        return True  # Floor changed
-
-    return False  # Same floor, no meaningful change
+# These checkpoint types always trigger an SMS if vehicle is registered
+NOTIFIABLE_TYPES = {GATE_ENTRY, FLOOR_ENTRY, FLOOR_EXIT, GATE_EXIT}
 
 
 def notify_if_needed(
     db: Session,
     plate: str,
-    new_floor: int | None,
-    new_status: str,
-    previous_state: CurrentVehicleState | None,
+    floor: int | None,
+    status: str,
+    checkpoint_type: str,
 ):
-    if not should_notify(previous_state, new_floor, new_status):
+    # Unknown checkpoint format — nothing to notify
+    if checkpoint_type == UNKNOWN:
+        logger.warning(f"Unknown checkpoint type for {plate} — skipping notification")
         return
 
+    # Only notify on meaningful checkpoint types
+    if checkpoint_type not in NOTIFIABLE_TYPES:
+        return
+
+    # Look up vehicle registration
     vehicle = db.query(Vehicle).filter(Vehicle.plate_number == plate).first()
-    if not vehicle or not vehicle.owner_phone:
-        logger.info(f"No phone number for {plate} — skipping SMS")
+
+    if not vehicle:
+        logger.info(f"{plate} not in database — skipping SMS")
         return
 
-    send_sms(vehicle.owner_phone, plate, new_floor, new_status)
+    if not vehicle.is_registered:
+        logger.info(f"{plate} is unregistered — tracking only, no SMS")
+        return
+
+    if not vehicle.owner_phone:
+        logger.info(f"{plate} is registered but has no phone number — skipping SMS")
+        return
+
+    send_sms(vehicle.owner_phone, plate, floor, checkpoint_type)

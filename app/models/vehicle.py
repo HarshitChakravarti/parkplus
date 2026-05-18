@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, DateTime
+from sqlalchemy import Column, String, DateTime, Boolean
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.sql import func
 import uuid
@@ -11,4 +11,5 @@ class Vehicle(Base):
     plate_number = Column(String, unique=True, nullable=False, index=True)
     owner_phone = Column(String, nullable=True)
     vehicle_type = Column(String, nullable=True)
+    is_registered = Column(Boolean, default=False, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now())

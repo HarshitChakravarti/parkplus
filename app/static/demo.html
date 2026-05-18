@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ParkPulse — Backend Demo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: monospace; background: #0f0f0f; color: #e0e0e0; padding: 24px; }
+    h1 { color: #00e5ff; font-size: 1.4rem; margin-bottom: 4px; }
+    .subtitle { color: #666; font-size: 0.8rem; margin-bottom: 24px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .card { background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px; padding: 16px; }
+    .card h2 { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; }
+    .inside { background: #0a3d0a; color: #4caf50; }
+    .exited { background: #3d0a0a; color: #f44336; }
+    .ws-status { font-size: 0.8rem; margin-bottom: 12px; }
+    .connected { color: #4caf50; } .disconnected { color: #f44336; }
+    #feed { list-style: none; max-height: 220px; overflow-y: auto; }
+    #feed li { padding: 6px 0; border-bottom: 1px solid #1f1f1f; font-size: 0.8rem; color: #ccc; }
+    #feed li span.plate { color: #00e5ff; }
+    #feed li span.floor { color: #ffd740; }
+    .floor-grid { display: flex; gap: 8px; flex-wrap: wrap; }
+    .floor-box { background: #111; border: 1px solid #333; border-radius: 6px; padding: 10px 16px; text-align: center; }
+    .floor-box .num { font-size: 1.4rem; color: #ffd740; font-weight: bold; }
+    .floor-box .label { font-size: 0.7rem; color: #666; }
+    .total { font-size: 2rem; color: #00e5ff; font-weight: bold; }
+    .total-label { font-size: 0.75rem; color: #666; margin-top: 2px; }
+    input { background: #111; border: 1px solid #333; color: #e0e0e0; padding: 8px 12px; border-radius: 6px; font-family: monospace; font-size: 0.85rem; width: 100%; margin-bottom: 8px; }
+    button { background: #00e5ff; color: #000; border: none; padding: 8px 16px; border-radius: 6px; font-family: monospace; font-size: 0.85rem; cursor: pointer; width: 100%; font-weight: bold; }
+    button:hover { background: #00b8d4; }
+    #search-result { margin-top: 12px; font-size: 0.8rem; }
+    #search-result .row { padding: 4px 0; border-bottom: 1px solid #1f1f1f; }
+    #search-result .row span { color: #888; }
+    .fire-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+    .fire-btn { background: #1a2a1a; color: #4caf50; border: 1px solid #2a4a2a; padding: 8px; border-radius: 6px; font-family: monospace; font-size: 0.75rem; cursor: pointer; }
+    .fire-btn:hover { background: #2a4a2a; }
+    .fire-btn.exit { background: #2a1a1a; color: #f44336; border-color: #4a2a2a; }
+    .fire-btn.exit:hover { background: #4a2a2a; }
+    #inject-plate { margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <h1>⚡ ParkPulse</h1>
+  <p class="subtitle">Backend Demo — Live System State</p>
+
+  <div class="grid">
+
+    <!-- Live Feed -->
+    <div class="card">
+      <h2>Live Event Feed</h2>
+      <div class="ws-status disconnected" id="ws-status">● Disconnected</div>
+      <ul id="feed"><li style="color:#444">Waiting for events...</li></ul>
+    </div>
+
+    <!-- Occupancy -->
+    <div class="card">
+      <h2>Floor Occupancy</h2>
+      <div style="margin-bottom:12px">
+        <div class="total" id="total-count">—</div>
+        <div class="total-label">vehicles inside</div>
+      </div>
+      <div class="floor-grid" id="floor-grid">
+        <div style="color:#444;font-size:0.8rem">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Vehicle Search -->
+    <div class="card">
+      <h2>Vehicle Lookup</h2>
+      <input id="search-input" placeholder="Enter plate e.g. MH12AB9999" />
+      <button onclick="searchVehicle()">Search</button>
+      <div id="search-result"></div>
+    </div>
+
+    <!-- Event Injector -->
+    <div class="card">
+      <h2>Inject Test Event</h2>
+      <input id="inject-plate" placeholder="Plate e.g. UK07AB1234" value="MH12AB9999" />
+      <div class="fire-grid">
+        <button class="fire-btn" onclick="fireEvent(1)">→ Floor 1</button>
+        <button class="fire-btn" onclick="fireEvent(2)">→ Floor 2</button>
+        <button class="fire-btn" onclick="fireEvent(3)">→ Floor 3</button>
+        <button class="fire-btn exit" onclick="fireExit()">⬆ Exit</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // ── WebSocket ──────────────────────────────────────
+    let ws;
+    function connectWS() {
+      ws = new WebSocket("ws://localhost:8000/dashboard/ws");
+      ws.onopen = () => {
+        document.getElementById("ws-status").textContent = "● Connected";
+        document.getElementById("ws-status").className = "ws-status connected";
+      };
+      ws.onmessage = (e) => {
+        const d = JSON.parse(e.data);
+        const li = document.createElement("li");
+        const time = d.timestamp.split("T")[1].slice(0,8);
+        const floorText = d.floor != null ? `Floor ${d.floor}` : "Exit";
+        li.innerHTML = `${time} → <span class="plate">${d.plate}</span> → <span class="floor">${floorText}</span> <span class="badge ${d.status}">${d.status}</span>`;
+        const feed = document.getElementById("feed");
+        if (feed.children[0]?.style.color === "rgb(68, 68, 68)") feed.innerHTML = "";
+        feed.prepend(li);
+        if (feed.children.length > 50) feed.removeChild(feed.lastChild);
+        loadOccupancy();
+      };
+      ws.onclose = () => {
+        document.getElementById("ws-status").textContent = "● Disconnected";
+        document.getElementById("ws-status").className = "ws-status disconnected";
+        setTimeout(connectWS, 3000); // auto-reconnect
+      };
+    }
+    connectWS();
+
+    // ── Occupancy ──────────────────────────────────────
+    async function loadOccupancy() {
+      const res = await fetch("/dashboard/occupancy");
+      const data = await res.json();
+      document.getElementById("total-count").textContent = data.total_inside;
+      const grid = document.getElementById("floor-grid");
+      if (data.by_floor.length === 0) {
+        grid.innerHTML = '<div style="color:#444;font-size:0.8rem">No vehicles inside</div>';
+        return;
+      }
+      grid.innerHTML = data.by_floor.map(f => `
+        <div class="floor-box">
+          <div class="num">${f.count}</div>
+          <div class="label">Floor ${f.floor}</div>
+        </div>`).join("");
+    }
+    loadOccupancy();
+
+    // ── Vehicle Search ─────────────────────────────────
+    async function searchVehicle() {
+      const plate = document.getElementById("search-input").value.trim().toUpperCase();
+      if (!plate) return;
+      const res = await fetch(`/vehicles/${plate}`);
+      const el = document.getElementById("search-result");
+      if (!res.ok) { el.innerHTML = '<div style="color:#f44336">Vehicle not found</div>'; return; }
+      const d = await res.json();
+      const historyRows = d.history.slice(0, 5).map(h =>
+        `<div class="row">↳ <span>${h.timestamp.split("T")[1].slice(0,8)}</span> ${h.checkpoint} ${h.floor != null ? `(Floor ${h.floor})` : "(Exit)"}</div>`
+      ).join("");
+      el.innerHTML = `
+        <div class="row"><span>Plate:</span> ${d.plate} <span class="badge ${d.status}">${d.status}</span></div>
+        <div class="row"><span>Floor:</span> ${d.current_floor ?? "—"}</div>
+        <div class="row"><span>Last seen:</span> ${d.last_seen.split("T")[1].slice(0,8)}</div>
+        <div style="margin-top:8px;color:#666;font-size:0.7rem">LAST 5 EVENTS</div>
+        ${historyRows}`;
+    }
+
+    // ── Event Injector ─────────────────────────────────
+    async function fireEvent(floor) {
+      const plate = document.getElementById("inject-plate").value.trim().toUpperCase();
+      const checkpoints = { 1: "F1_ENTRY", 2: "F2_ENTRY", 3: "F3_ENTRY" };
+      await fetch("/events", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          plate, floor,
+          checkpoint: checkpoints[floor],
+          timestamp: new Date().toISOString().slice(0, 19)
+        })
+      });
+    }
+
+    async function fireExit() {
+      const plate = document.getElementById("inject-plate").value.trim().toUpperCase();
+      await fetch("/events", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          plate, floor: null,
+          checkpoint: "EXIT_GATE",
+          timestamp: new Date().toISOString().slice(0, 19)
+        })
+      });
+    }
+  </script>
+</body>
+</html>

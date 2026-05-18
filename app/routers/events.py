@@ -27,6 +27,9 @@ async def ingest_event(payload: ANPREventCreate, db: Session = Depends(get_db)):
             message="Event processed successfully",
             plate=result["plate"],
             checkpoint=result["checkpoint"],
+            checkpoint_type=result.get("checkpoint_type"),
+            status=result["status"],
+            floor=result["floor"],
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
