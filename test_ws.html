@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>ParkPulse WS Test</title></head>
+<body>
+  <h2>ParkPulse Live Feed</h2>
+  <div id="status" style="color:gray">Connecting...</div>
+  <ul id="feed"></ul>
+
+  <script>
+    const ws = new WebSocket("ws://localhost:8000/dashboard/ws");
+
+    ws.onopen = () => {
+      document.getElementById("status").textContent = "Connected ✅";
+      document.getElementById("status").style.color = "green";
+    };
+
+    ws.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+      const item = document.createElement("li");
+      item.textContent = `${data.timestamp} → ${data.plate} → Floor ${data.floor ?? "EXIT"} [${data.status}]`;
+      document.getElementById("feed").prepend(item);
+    };
+
+    ws.onclose = () => {
+      document.getElementById("status").textContent = "Disconnected ❌";
+      document.getElementById("status").style.color = "red";
+    };
+  </script>
+</body>
+</html>
