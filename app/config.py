@@ -8,6 +8,10 @@ class Settings(BaseSettings):
     TWILIO_ACCOUNT_SID: str = ""
     TWILIO_AUTH_TOKEN: str = ""
     TWILIO_FROM_NUMBER: str = ""
+    
+    NOTIFICATION_PROVIDER: str = "mock"   # mock | msg91 | twilio
+    MSG91_AUTH_KEY: str = ""
+    MSG91_SENDER_ID: str = ""
 
     class Config:
         env_file = ".env"
